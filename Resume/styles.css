@@ -3,4 +3,8 @@ label{
 }
 form {
     border-style: solid;
+    padding: 5px;
+}
+#textsize150 {
+    font-size: 150%;
 }
