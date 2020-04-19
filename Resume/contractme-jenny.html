@@ -1,0 +1,60 @@
+<html>
+
+<head> </head>
+
+<body>
+    <form>
+        <h1>Jenny's Form</h1>
+        <fieldset>
+        <legend>PersonalInfo</legend>
+        <label for="fname">First Name:</label><br />
+        <input type="text" id="fname" placeholder="Enter First Name" /><br />
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" placeholder="Enter Last Name" /><br />
+        <label for="birthdate">Birthdate:</label><br />
+        <input type="date" /><br />
+
+        <h4>Gender:</h4>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label><br />
+        </fieldset><br />
+
+        <label for="status">Status</label><br />
+        <select id="status" name="status">
+            <option value="student">Student</option>
+            <option value="non-student">Non-Student</option>
+        </select><br>
+        <label for="student">If you are the international student, please select your country</label><br />
+        <select id="student" name="If you are the international student, please select your country">
+            <option value="China">China</option>
+            <option value="United State">United State</option>
+            <option value="Unite Kingdome">United Kingdom</option>
+        </select><br>
+        <br />
+        <h4>What is your job?</h4>
+        <input type="checkbox" id="job1" name="job1" value="Teacher Assistant">
+        <label for="job1">I am a Teacher Assistant</label><br />
+        <input type="checkbox" id="job2" name="job2" value="Notetaker">
+        <label for="job2">I am a Notetaker</label><br />
+        <input type="checkbox" id="job3" name="job3" value="Counsellor">
+        <label for="job3">I am a Counsellor</label><br />
+        <input type="checkbox" id="job4" name="job4" value="Student Worker">
+        <label for="job4">I am a Student Worker</label><br />
+        <input type="checkbox" id="job5" name="job5" value="Front Desk">
+        <label for="job5">I am a Front Desk</label><br />
+        <input type="checkbox" id="job6" name="job6" value="Professor">
+        <label for="job6">I am a Professor</label><br />
+        <br />
+        <p>If you have any questions, please write it down.</p>
+        <textarea name="message" rows="10" cols="30">Please put your questions here.</textarea><br />
+        <br />
+        <input type="submit" value="Submit" /><br />
+
+    </form>
+</body>
+
+</html>
