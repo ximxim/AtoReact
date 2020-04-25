@@ -2,14 +2,15 @@
 <html>
     <head>
         <title>Awesome form</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css" />
     </head>
     <body>
         <h1>My awesome form</h1>
 
-        <form>
+        <form id="myForm"> <!-- z-index: 1 -->
             <table>
                 <tr>
-                    <td>
+                    <td id="firstName"> <!-- z-index: 4 -->
                         <label>First Name</label><br />
                         <input placeholder="Enter First Name" required /><br />
                     </td>
@@ -25,25 +26,25 @@
                 <tr>
                     <td>
                         <label>Business Phone</label><br />
-                        <input placeholder="Enter Business Phone" /><br />
+                        <input type="tel" placeholder="Enter Business Phone" /><br />
                     </td>
                     <td>
                         <label>Company Name</label><br />
                         <input placeholder="Enter Company Name" required /><br />
                     </td>
-                    <td>
+                    <td id="jobTitle">
                         <label>Job Title</label><br />
                         <input placeholder="Enter Job Title" /><br />
                     </td>
                 </tr>
-                <tr>
+                <tr style="background-color: inherit;">
                     <td colspan="3">
                         <label>Street 1</label><br />
                         <input placeholder="Enter Street 1" size="70" /><br />
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="2">
+                <tr class="fancy-row bg-red">
+                    <td id="city" colspan="2">
                         <label>City</label><br />
                         <input placeholder="Enter City" /><br />
                     </td>
@@ -53,7 +54,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="postalCode">
                         <label>Postal Code</label><br />
                         <input placeholder="Enter Postal Code" /><br />
                     </td>
@@ -65,7 +66,7 @@
                 <tr>
                     <td colspan="2">
                         <label>Topic</label><br />
-                        <input placeholder="Enter Topic" /><br />
+                        <input type="password" placeholder="Enter Topic" /><br />
                     </td>
                     <td>
                         <input type="submit" />
