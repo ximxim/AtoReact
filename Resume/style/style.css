@@ -46,3 +46,17 @@ input[type="submit"] {
     color: white;
     border-radius: 15px;
 }
+
+[type="submit"]:hover {
+    cursor: pointer;
+    transition: 0.3s all;
+    background-color: pink !important;
+}
+
+table tr:nth-child(odd) {
+    background-color: pink !important;
+}
+
+table td label:only-of-type { 
+    font-size: 20px;
+}

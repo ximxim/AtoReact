@@ -1,4 +1,4 @@
-label{
+label {
     display: block;
 }
 form {
@@ -7,4 +7,16 @@ form {
 }
 #textsize150 {
     font-size: 150%;
+}
+
+ol li > h2 {
+    background-color: red;
+}
+
+#aboutme p {
+    background-color: black !important;
+}
+
+.bold, .emphasis {
+    font-weight: bold;
 }
