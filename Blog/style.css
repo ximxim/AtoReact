@@ -1,0 +1,64 @@
+body {
+    background-color: pink;
+    font-family: 'Baloo 2', cursive;
+}
+
+h1, h2, h3, h4, h5, h6, table th {
+    font-family: 'Pacifico', cursive;
+}
+
+em {
+    background-color: maroon;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p a {
+    background-color: blue;
+    color: white;
+    transition: all 0.3s;
+}
+
+p a:hover {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+table td:first-of-type:not([colspan]) {
+    background-color: green;
+    vertical-align: text-top;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+table td:last-of-type:not([colspan]) {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+table img {
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+table img:hover {
+    width: 100%;
+}
