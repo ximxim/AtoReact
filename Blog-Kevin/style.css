@@ -1,0 +1,64 @@
+body {
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, th {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+em {
+    background-color: darkgray;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p a {
+    background-color: rgba(255, 0, 221, 0.959);
+    color: white;
+    transition: all 0.3s;
+}
+
+p a:hover {
+    font-size: 20px;
+    background-color: rgb(112, 218, 147);
+    color: black;
+}
+
+table {
+    width: 25%;
+}
+
+table th {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+table td:first-of-type:not([colspan]) {
+    background-color: green;
+    vertical-align: text-top;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+table td:last-of-type:not([colspan]) {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+table img {
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+table img:hover {
+    width: 100%;
+}
+
