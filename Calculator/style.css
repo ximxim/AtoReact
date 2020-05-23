@@ -1,0 +1,54 @@
+table {
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+    background-color: lightcyan;
+    padding: 10px;
+}
+
+table tr th {
+    border-radius: 5px;
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 3px solid lightgrey;
+}
+
+table tr th span {
+    display: block;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-bottom: 1px solid lightgrey;
+}
+
+table tr td {
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+.bg-red {
+    color: white;
+    background-color: red;
+}
+
+.bg-gray {
+    background-color: darkgray;
+    color: white;
+}
+
+.bg-dark-gray {
+    background-color: gray;
+    color: white;
+}
+
+.bg-blue {
+    background-color: navy;
+    color: white;
+}
