@@ -3,3 +3,38 @@
     max-width: 100%;
     padding: 20px;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 10px;
+    grid-template-areas: 
+        "navbar navbar navbar navbar"
+        "title title title title"
+        "posts posts posts sidebar"
+        "footer footer footer footer"
+    ;
+}
+
+.title {
+    grid-area: title;
+}
+
+.posts {
+    grid-area: posts;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.navbar {
+    grid-area: navbar;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
