@@ -5,7 +5,36 @@
     padding: 10px;
 }
 
-.result {
+#one { grid-area: one; }
+#two { grid-area: two; }
+#three { grid-area: three; }
+#four { grid-area: four; }
+#five { grid-area: five; }
+#six { grid-area: six; }
+#seven { grid-area: seven; }
+#eight { grid-area: eight; }
+#nine { grid-area: nine; }
+#zero { grid-area: zero; }
+#double-zero { grid-area: double-zero; }
+#mc { grid-area: mc; }
+#mr { grid-area: mr; }
+#m-minus { grid-area: m-minus; }
+#m-plus { grid-area: m-plus; }
+#paren-open { grid-area: paren-open; }
+#paren-close { grid-area: paren-close; }
+#sqroot { grid-area: sqroot; }
+#forward-slash { grid-area: forward-slash; }
+#precentage { grid-area: precentage; }
+#greater-than { grid-area: greater-than; }
+#times { grid-area: times; }
+#subtract { grid-area: subtract; }
+#ac { grid-area: ac; }
+#plus { grid-area: plus; }
+#equals { grid-area: equals; }
+#reset { grid-area: reset; }
+#period { grid-area: period; }
+
+#result {
     border-radius: 5px;
     text-align: right;
     padding: 10px 5px;
@@ -17,7 +46,7 @@
     font-weight: lighter;
 }
 
-p:not(.result) {
+p:not(#result) {
     padding: 10px 5px;
     border-radius: 5px;
     text-align: center;
