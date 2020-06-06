@@ -1,8 +1,19 @@
 .container {
+    display: grid;
     border: 3px solid lightskyblue;
     border-radius: 5px;
     background-color: lightcyan;
     padding: 10px;
+    grid-template-columns: repeat(6, auto);
+    column-gap: 10px;
+    grid-template: 
+    "result result result result result result"
+    "mc mr m-minus m-plus paren-open paren-close"
+    "sqroot seven eight nine forward-slash percentage"
+    "greater-than four five six times subtract"
+    "ac one two three plus equals"
+    "reset zero double-zero period plus equals"
+    ;
 }
 
 #one { grid-area: one; }
@@ -24,7 +35,7 @@
 #paren-close { grid-area: paren-close; }
 #sqroot { grid-area: sqroot; }
 #forward-slash { grid-area: forward-slash; }
-#precentage { grid-area: precentage; }
+#percentage { grid-area: percentage; }
 #greater-than { grid-area: greater-than; }
 #times { grid-area: times; }
 #subtract { grid-area: subtract; }
@@ -35,6 +46,7 @@
 #period { grid-area: period; }
 
 #result {
+    grid-area: result; 
     border-radius: 5px;
     text-align: right;
     padding: 10px 5px;
