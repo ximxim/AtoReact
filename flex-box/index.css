@@ -1,13 +1,15 @@
 body {
-    background-color: cyan;
+    background-color: lightcyan;
 }
 
 div:not(.container) {
     margin: 5px;
-    border-radius: 10px;
-    background-color: red;
-    text-align: center;
     padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
