@@ -1,0 +1,14 @@
+body {
+    background-color: cyan;
+}
+
+div:not(.container) {
+    margin: 5px;
+    border-radius: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+}
